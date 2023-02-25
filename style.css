@@ -1,0 +1,65 @@
+body {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+}
+
+body h1 {
+    color: white;
+}
+
+body h2 {
+    color: white;
+}
+
+body h5 {
+    color: white;
+}
+
+
+
+#increment-btn {
+    background-color: rgb(255, 69, 62);
+    border: 0;
+    box-shadow: 0px 5px 200px rgb(255, 69, 62);;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.75;
+    transition: transform .05s;
+}
+
+#increment-btn:hover {
+    opacity: 1;
+    transform: scale(1.05);
+
+}
+
+.lvlButton {
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    transition: transform .1s ;
+}
+
+.lvlButton:hover {
+    transform: scale(1.1);
+}
+
+@media(max-width: 700px) {
+    #increment-btn {
+        width: 400px;
+        height: 300px;
+    }
+}
